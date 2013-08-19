@@ -1,0 +1,406 @@
+/* 
+    Document   : style
+    Created on : Feb 21, 2012, 10:20:08 PM
+    Author     : Seth
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+
+body{
+    margin:0 auto;
+    text-align: center;
+    background-image: url('../images/brownBg.png');
+}
+
+#viewer{
+    width:100%;
+    height:790px;
+    overflow: hidden;
+}
+
+#container{
+    text-align: center;
+    width:7658px;
+    background-image:url('../images/background.png');
+    height:695px;
+    background-repeat: repeat-x;
+    margin-top:50px;
+}
+
+#sethBio,#home,#chloeBio{
+    vertical-align: top;
+    margin:0 auto;
+    display:inline-block;
+    width:750px;
+    height:672px;
+    padding-left: 900px;
+    padding-right:900px;
+}
+
+#footer{
+    font-family: garamond;
+    margin-top:30px;
+    color:#968b82;
+    height:100px;
+}
+
+/*HOME*/
+
+#button {
+    background-image:url('../images/button.png');
+    height:138px;
+    width:138px;
+    display:inline-block;
+}
+
+#seth{
+    display:inline-block;
+    background-image:url('../images/sethHoward.png');
+    height:38px;
+    width:178px;
+    margin-top: 39px;
+    vertical-align: top;
+}
+
+#chloe{
+    display:inline-block;
+    background-image:url('../images/chloeBriscoe.png');
+    height: 36px;
+    width:178px;
+    margin-top: 39px;
+    vertical-align: top;
+}
+
+.button{
+    display:inline-block;
+    background-image:url('../images/bioButton.png');
+    background-repeat: no-repeat;
+    width:68px;
+    height:45px;
+    vertical-align: top;
+    margin-top: 38px;
+    cursor: pointer;
+}
+
+#sethButton{
+    margin-right:15px;
+}
+
+#chloeButton{
+    margin-left:15px;
+}
+
+#homeRight{
+    cursor:pointer;
+    background-image:url('../images/backRight.png');
+    width:70px;
+    height:45px;
+    display:inline-block;
+    vertical-align: top;
+    margin-left:55px;
+    margin-top:38px;
+}
+
+#homeLeft {
+    cursor:pointer;
+    background-image:url('../images/backLeft.png');
+    width:68px;
+    height:45px;
+    display:inline-block;
+    vertical-align: top;
+    margin-right:55px;
+    margin-top:38px;
+}
+
+#reception{
+    bottom:-10px;
+    left:35px;
+    position:absolute;
+    background-image:url('../images/reception_date.png');
+    width:243px;
+    height:39px;
+}
+
+#bungalow{
+    position:absolute;
+    background-image:url('../images/at_bungalow.png');
+    width:187px;
+    height:41px;
+    right:35px;
+    bottom:-10px;
+}
+
+#header{
+    position:relative;
+}
+
+.leftBlock, .rightBlock{
+    vertical-align: top;
+    display:inline-block;
+    width:352px;
+}
+
+#frame_container{
+    position:relative;
+    width:352px;
+    height:391px;
+}
+
+#frame{
+    position:absolute;
+    z-index: 100;
+    background-image:url('../images/frame.png');
+    width:352px;
+    height:391px;
+    overflow: hidden;
+}
+
+.rightBlock{
+    margin-left:30px;
+}
+
+.invite{
+    margin:0 auto;
+    background-image:url('../images/request_invite.png');
+    width:267px;
+    height:98px;
+}
+
+.container{
+    margin-top:70px;
+}
+
+.line{
+    width:287px;
+}
+
+.rightBlock input{
+    background: #cccccc; /* Old browsers */
+    background: -moz-linear-gradient(top, #cccccc 0%, #c6c6c6 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cccccc), color-stop(100%,#c6c6c6)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #cccccc 0%,#c6c6c6 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #cccccc 0%,#c6c6c6 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #cccccc 0%,#c6c6c6 100%); /* IE10+ */
+    background: linear-gradient(top, #cccccc 0%,#c6c6c6 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#c6c6c6',GradientType=0 ); /* IE6-9 */
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #9e9c9b;
+    border-left:none;
+    border-right:none;
+    padding-left:10px;
+    font-size:15px;
+    color:#383431;
+    width:282px;
+    height:40px;
+    margin-left: 0px;
+}
+
+#name{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#submit_button{
+    color:white;
+    margin:0 auto;
+    width:294px;
+    height:45px;
+    background-color:none;
+    font-size:28px;
+    line-height:45px;
+    background-image: url('../images/submitBg.png');
+}
+
+#state, #zip{
+    display: inline-block;
+    width:135px;
+}
+
+#state{
+    border-right: 1px solid #9e9c9b;
+    width:134px;
+}
+
+#zip{
+    border-left:1px solid #e4e4e4;
+}
+
+#submit_button:hover{
+    cursor:pointer;
+}
+
+.chloe{
+    margin-bottom: 50px;
+    display:inline-block;
+    background-image: url('../images/chloe_name_large.png');
+    height:160px;
+    width:538px;
+}
+
+.seth{
+    margin-bottom: 50px;
+    display:inline-block;
+    background-image: url('../images/seth_name_large.png');
+    height:160px;
+    width:538px;
+}
+
+.sFrame{
+    background-image:url('../images/seth_frames.png');
+    height:330px;
+    width:334px;
+}
+
+.cFrame{
+    background-image:url('../images/chloe_frames.png');
+    height:324px;
+    width:332px;
+}
+
+.facebook, .twitter, .email{
+    display:inline-block;
+    height:22px;
+    width:27px;
+}
+
+.bio{
+    font-family: garamond;
+    color:#464646;
+    position: relative;
+    box-shadow: 0px 3px 14px 0px #999;
+    background-image:url('../images/bio_bg.png');
+    height:386px;
+    width:288px;
+    text-align: justify;
+    line-height: 23px;
+    padding-left: 15px;
+    padding-right:15px;
+}
+
+.facebook{
+    background-image:url('../images/facebook.png');
+}
+
+.twitter{
+    background-image:url('../images/twitter.png');
+}
+
+.email{
+    background-image:url('../images/email.png');
+}
+
+.social{
+    position: absolute;
+    bottom:5px;
+    left:20px;
+}
+
+.born{
+    text-align: center;
+    margin:0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16pt;
+    color:#719faa;
+}
+
+.cbirth{
+    background-image: url('../images/chloe_birth.png');
+    width:178px;
+    height:30px;
+}
+
+.sbirth{
+    background-image: url('../images/seth_birth.png');
+    width:178px;
+    height:30px;
+}
+
+.registry{
+    font-family: garamond;
+    display: inline-block;
+    vertical-align: top;
+    margin-top:9px;
+    margin-right:7px;
+}
+
+.target{
+    margin-left: 10px;
+    display: inline-block;
+    cursor: pointer;
+    background-image:url('../images/target_logo.png');
+    width:34px;
+    height:34px;
+}
+
+.bedLogo{
+    margin-left: 10px;
+    display: inline-block;
+    cursor: pointer;
+    background-image:url('../images/bed_logo.png');
+    width:101px;
+    height:34px;
+}
+
+.inner_frame{
+    top:22px;
+    left:23px;
+    z-index: 50;
+    position:absolute;
+    height:349px;
+    width:307px;
+    opacity:0;
+}
+
+.one{
+    background-image: url('../images/4.png');
+    opacity:1 !important;
+}
+
+.two{
+    background-image: url('../images/2.png');
+}
+
+.three{
+    background-image: url('../images/3.png');
+}
+
+.four{
+    background-image: url('../images/1.png');
+}
+
+.five{
+    background-image: url('../images/5.png');
+}
+
+.six{
+    background-image: url('../images/6.png');
+}
+
+.seven{
+    background-image: url('../images/7.png');
+}
+
+iframe{
+    display:none;
+}
+
+.response_container{
+    vertical-align: top;
+    display: inline-block;
+    width:0px;
+    overflow: hidden;
+}
+
+.response{
+    font-family: garamond;
+    color:#49433e;
+    width:300px;
+}

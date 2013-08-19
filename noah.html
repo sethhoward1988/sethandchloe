@@ -1,0 +1,40 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .noahs{
+                color:blue;
+                width:150px;
+                border:3px dashed green;
+                padding:10px;
+                -webkit-transition: all .2s;
+            }
+            
+            .noahs:hover{
+                font-size:16pt;
+                cursor:pointer;
+                -webkit-transition: all .2s;
+            }
+            
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+        <script>
+            $(function(){
+                $('.noahs').on('click',function(){
+                    $('<div>You clicked on my class!</div>').appendTo($('body'));
+                })
+            });
+        </script>
+    </head>
+    <body>
+        <H1>MY NAME IS NOAH</h1>
+        <div class="noahs">
+            This is my personal class that I think is really cool and is really long.
+        </div>
+    </body>
+</html>

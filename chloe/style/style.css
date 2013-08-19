@@ -1,0 +1,29 @@
+body {
+    background-color:lightcyan;
+} 
+
+h1{
+   color:black;
+   font-family:Verdana;
+   font-size:14pt;
+   text-align:center;
+} 
+
+h2{
+   color:black;
+   font-family:Verdana;
+   font-size:12pt;
+   text-align:center;
+} 
+
+p{ color:black;
+   font-family:Verdana;
+   font-size:10pt;
+   text-align:center;
+} 
+
+#Flower{
+    width:40%;
+    border:5px solid black;
+    margin-top:7px
+}
